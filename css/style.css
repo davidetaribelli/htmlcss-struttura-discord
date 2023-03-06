@@ -26,6 +26,11 @@ main .grey{
     background-color: #D3D3D3;
 }
 
+footer{
+    background-color: #23272A;
+}
+
+
 .boxed{
     max-width: 75rem;
     margin: 0 auto;
@@ -125,5 +130,60 @@ main .grey{
     background-color: #228B22;
     min-height: 56rem;
     min-width: 75rem;
+}
+
+/*************
+    footer
+**************/
+.ftColumns{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.boxedFt{
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.boxedFt >.flexbox {
+    justify-content: center;
+}
+ 
+.single{
+    min-width: 22rem;
+    min-height: 36rem;
+    background-color: #F08080;
+}
+
+.multiple{
+    min-height: 36rem;
+    min-width: 53rem;
+    background-color: #20B2AA;
+   
+}
+
+.column{
+    border: 2px dashed white;
+    min-height: 36rem;
+    width: calc(100% / 4);   
+}
+
+footer hr{
+    color: #D3D3D3;
+}
+
+.ftButton{
+    background-color: #7FFFD4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.ftButton.flexbox{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftLogo, .button{
+    background-color:#FFB6C1 ;
 }
 
