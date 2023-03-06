@@ -14,10 +14,18 @@ nav{
     background-color: #DAA520;
 }
 
+header > section{
+    background-color: #00008B;
+}
+
 .boxed{
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.border{
+    border: 2px dashed black;
 }
 
 .flexbox{
@@ -41,8 +49,7 @@ nav{
 .boxedNav{
     padding: 0.5em;
     min-height: 46px;
-    border: 2px dashed black;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
 }
 
 .boxedNav a{
@@ -54,4 +61,16 @@ nav{
 .link{
     width:calc(100% / 3 * 2);
 }
+
+.boxedContent{
+    padding: 3rem;
+}
+
+.content{
+    max-width: 57rem;
+    min-height: 25rem;
+    background-color: #EE82EE;
+    margin: 0 auto;
+}
+
 
