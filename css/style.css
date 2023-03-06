@@ -98,12 +98,12 @@ main .grey{
     margin: 0 auto;
     padding: 3rem;
 }
-.blue.container{
+.blue{
     min-height: 31rem;
     min-width: 45rem;
 }
 
-.pink.container {
+.pink{
     min-height: 31rem;
     min-width: 30rem;
 }
@@ -120,3 +120,10 @@ main .grey{
 .grey > .boxedMain > .flexbox{
     flex-direction: row-reverse;
 }
+
+.bigContainer{
+    background-color: #228B22;
+    min-height: 56rem;
+    min-width: 75rem;
+}
+
