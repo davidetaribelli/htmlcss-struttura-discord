@@ -131,9 +131,7 @@ footer{
 .boxedFt{
     max-width: 75rem;
     margin: 0 auto;
-    padding: 3rem 3rem 2rem 3rem;
-   
-    
+    padding: 2rem 3rem 1rem 3rem;
 }
 
 .boxedFt >.flexbox {
@@ -160,12 +158,13 @@ footer{
 
 footer hr{
     color: #D3D3D3;
+    margin-top: 2rem;
 }
 
 .ftButton{
     background-color: #7FFFD4;
-    padding-top: 1rem;
-    padding-bottom: 1rem; 
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem; 
 }
 
 .ftButton.flexbox{
@@ -175,5 +174,6 @@ footer hr{
 
 .ftLogo, .button{
     background-color:#FFB6C1 ;
+    padding: 0.5rem;
 }
 
