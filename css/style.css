@@ -106,21 +106,15 @@ footer{
 .blue{
     min-height: 31rem;
     min-width: 45rem;
+    background-color: #1E90FF;
 }
 
 .pink{
     min-height: 31rem;
     min-width: 30rem;
-}
-
-
-.blue{
-    background-color: #1E90FF;   
-}
-
-.pink{
     background-color: #FFC0CB;
 }
+
 
 .grey > .boxedMain > .flexbox{
     flex-direction: row-reverse;
